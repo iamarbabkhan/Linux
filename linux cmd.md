@@ -2,10 +2,10 @@
 
 1. Create file: `cat file` `touch file` `vi/vim file` `nano file`
 * Note: vi/vim and nano is editor
-:w - to save
-:wq or :x - save
-:q - quit
-:q! - force quit
+* :w - to save
+* :wq or :x - save and quit
+* :q - quit
+* :q! - force quit
 2. Root user: `sudo su`
 3. Install package: `sudo apt install packagename`
 4. Unistall package: `sudo apt remove packagename`
