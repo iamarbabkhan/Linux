@@ -5,9 +5,9 @@ Released on 5 oct 1991 by linus torvalds
 
 ### Architecture:
 * Hardware - ram, hdd, cpu
-* Core component of os
-* Command line interface (CLI)
-* Application
+* Kernel - Core component of os
+* Shell - Command line interface (CLI)
+* Applications
 
 ### Linux Features:
 1. Open source
