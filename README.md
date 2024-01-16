@@ -4,10 +4,11 @@ Linux: Its a Unix-like OS which is free and open source based on linux kernel.
 Released on 5 oct 1991 by linus torvalds 
 
 ### Architecture:
+![architecture](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwDHsNv2YIiDsaHIja3MtA_CPdoEdIeBnP-ZWD8ZKqHnEWyF2kapfsQZHS&s=10)
 * Hardware - ram, hdd, cpu
 * Kernel - Core component of os
 * Shell - Command line interface (CLI)
-* Applications
+* Applications/Utilities
 
 ### Linux Features:
 1. Open source
