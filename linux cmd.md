@@ -57,3 +57,12 @@ create user: useradd username
 39. Change owner: `chown 777 ownername`
 40. Change group: `chgrp 777 groupname`
 * Note: r= read(4), w= write(2), x= execute(1)
+41. Grant superuser permission: `sudo usermod -aG sudo username`
+42. Change user password: `passwd username`
+43. List users: `cat /etc/passwd
+44. check user privilege: `sudo ls /root`
+45. Create tar file: `tar -cvf archive.tar -C /path/to/destination`
+46. Extract tar: `tar -xvf archive.tar -C /path/to/destination`
+47. Create zip:  `zip -cvf archive.zip -C /path/to/destination`
+48. Extract zip: `unzip archive.zip -C /path/to/destination`
+* Note: `sudo apt-get install zip unzip`
