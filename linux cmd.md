@@ -42,28 +42,28 @@
 * Note: start or stop service automatically during boot
 27. Display current user and username: `whoami`
 28. Search file or text: `grep filename or text` or `grep filepath like /root/home/user`
-create user: useradd username
-29. Create group: `groupadd name`
-30. Add user or multiple user into group: `gpasswd -a/-M`
-31. File backup/hardlink: `ln filename backupfilename`
-32. Softlink/sortcut: `ln -s filename softfilename`
-33. Create tar file: `tar -cvf filename filesource`
+29. create user: useradd username
+30. Create group: `groupadd name`
+31. Add user or multiple user into group: `gpasswd -a/-M`
+32. File backup/hardlink: `ln filename backupfilename`
+33. Softlink/sortcut: `ln -s filename softfilename`
+34. Create tar file: `tar -cvf filename filesource`
 * Note: dir/file/file1/file2 
-34. Create zip or compress: `gzip filename`
-35. Unzip file: `gunzip filename`
-36. Extract file: `tar -xvf filename`
-37. Download file: `wget url or curl url`
-38. Change mode: `chmod 777 filename`
-39. Change owner: `chown 777 ownername`
-40. Change group: `chgrp 777 groupname`
+35. Create zip or compress: `gzip filename`
+36. Unzip file: `gunzip filename`
+37. Extract file: `tar -xvf filename`
+38. Download file: `wget url or curl url`
+39. Change mode: `chmod 777 filename`
+40. Change owner: `chown 777 ownername`
+41. Change group: `chgrp 777 groupname`
 * Note: r= read(4), w= write(2), x= execute(1)
-41. Grant superuser permission: `sudo usermod -aG sudo username`
-42. Change user password: `passwd username`
-43. List users: `cat /etc/passwd
-44. check user privilege: `sudo ls /root`
-45. Create tar file: `tar -cvf archive.tar -C /path/to/destination`
-46. Extract tar: `tar -xvf archive.tar -C /path/to/destination`
-47. Create zip:  `zip -cvf archive.zip -C /path/to/destination`
-48. Extract zip: `unzip archive.zip -C /path/to/destination`
+42. Grant superuser permission: `sudo usermod -aG sudo username`
+43. Change user password: `passwd username`
+44. List users: `cat /etc/passwd
+45. check user privilege: `sudo ls /root`
+46. Create tar file: `tar -cvf archive.tar -C /path/to/destination`
+47. Extract tar: `tar -xvf archive.tar -C /path/to/destination`
+48. Create zip:  `zip -cvf archive.zip -C /path/to/destination`
+49. Extract zip: `unzip archive.zip -C /path/to/destination`
 * Note: `sudo apt-get install zip unzip`
-49. Find file location: `which filename` or `whereis filename`
+50. Find file location: `which filename` or `whereis filename`
