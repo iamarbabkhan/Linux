@@ -66,3 +66,4 @@ create user: useradd username
 47. Create zip:  `zip -cvf archive.zip -C /path/to/destination`
 48. Extract zip: `unzip archive.zip -C /path/to/destination`
 * Note: `sudo apt-get install zip unzip`
+49. Find file location: `which filename` or `whereis filename`
