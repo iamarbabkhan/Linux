@@ -27,7 +27,7 @@ Released on 5 oct 1991 by linus torvalds
 4. Suse enterprise
 5. Others include Ubuntu and CentOS.
 
-### Operating System:
+### Operating Systems Interfaces:
 * Command Line Interface (CLI) 
 * Graphical User Interface (GUI)
 
